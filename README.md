@@ -18,7 +18,7 @@ Design: ![Online Ordering](./img/Online-ordering.png)
 -   Github pages (multi-page)
 -   Header (logo & nav links)
 -   social media icons
--   CSS backgrounds
+-   CSS linear-background
 -   CSS rounded images
 
 ## Authors
