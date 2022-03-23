@@ -18,6 +18,7 @@ body {
     background-color: rgb(66, 215, 241);
 }
 .round-container {
+    position: relative;
     background: linear-gradient(to right, #FF3469, #FF5347);
     border-radius: 30px;
 }
@@ -46,6 +47,9 @@ a {
     padding: 5px;
     margin-right: 25px;
 }
+a:hover {
+    font-size: larger;
+}
 .active {
     text-transform: uppercase;
     border-bottom: 1px solid #fff;
@@ -60,6 +64,9 @@ a {
 .sign-up-link > a {
     color: #000;
     margin: 0;
+}
+.sign-up-link:hover {
+    background-color: rgb(57, 198, 241);
 }
 .main-content {
     display: inline-block;
@@ -89,6 +96,9 @@ a {
     padding: 5px 15px;
     
 }
+.order-link:hover {
+    background-color: rgb(57, 198, 241);
+}
 .img-container {
     width: 50%;
     float: left;
@@ -100,4 +110,32 @@ a {
     width: 100%;
     border-radius: 50%;
     border: 18px solid #F3A98E;
+}
+.soc-icons {
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+}
+.soc-icons > a:hover {
+    font-size: larger;
+    color: rgb(57, 198, 241);
+}
+.submit-btn {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.search-bar {
+    background-color: transparent;
+    width: 80px;
+    margin-right: 25px;
+    border: none;
+    color: transparent;
+    padding: 5px;
+}
+.search-bar:hover {
+    background-color: rgb(57, 198, 241);
+    border-radius: 10px;
 }
