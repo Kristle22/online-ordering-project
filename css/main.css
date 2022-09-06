@@ -18,7 +18,7 @@ body {
   position: relative;
   background: linear-gradient(to right, #ff3469, #ff5347);
   border-radius: 30px;
-  padding: 20px;
+  padding: 20px 40px;
 }
 .header {
   width: 100%;
@@ -79,15 +79,14 @@ a {
   color: #fff;
 }
 .main-content {
+  display: inline-block;
   width: 100%;
-  padding-bottom: 100px;
-}
-.text-content {
-  width: 60%;
-  margin-top: 80px;
+  padding-bottom: 20px;
 }
 .heading {
   margin: 20px 0;
+  padding: 40px;
+  text-align: center;
   text-transform: uppercase;
   font-size: 30px;
   font-family: cursive;
@@ -109,8 +108,9 @@ a {
   color: #fff;
 }
 .img-container {
-  width: 100%;
+  width: 50%;
   padding: 20px;
+  float: right;
 }
 .image {
   width: 100%;
@@ -118,6 +118,7 @@ a {
   border-radius: 50%;
   border: 18px solid #f3a98e;
   margin-top: 20px;
+  float: left;
 }
 .soc-icons {
   position: absolute;
@@ -164,22 +165,44 @@ a {
   background-color: rgb(57, 198, 241);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 1000px) {
   .round-container {
-    width: 80%;
-    margin: auto;
-    padding: 50px;
+    display: inline-block;
+    padding: 20px 0;
   }
   .img-container {
-    width: 85%;
-    padding-bottom: 100px;
-  }
-  .image {
+    width: 60%;
     float: right;
   }
   .text,
   .heading {
-    width: 60%;
-    padding-right: 50px;
+    float: left;
+    width: 40%;
+    padding: 0 20px;
+  }
+  .text {
+    margin-bottom: 30px;
+  }
+  .heading {
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .order-link {
+    display: inline-block;
+    margin: 0 0 20px 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .img-container,
+  .heading,
+  .text {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .img-container,
+  .heading {
+    padding: 0 50px;
   }
 }
