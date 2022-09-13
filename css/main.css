@@ -46,7 +46,7 @@ body {
 }
 form {
   display: flex;
-  max-width: 100px;
+  width: 150px;
 }
 /* .nav-links li:nth-last-of-type(2) {
     max-width: 75px;
@@ -68,16 +68,16 @@ a.active {
   border-bottom: 1px solid #fff;
 }
 li.about {
-  width: 77px;
+  width: 80px;
 }
 li.cont {
-  width: 90px;
+  width: 95px;
 }
 li.acc {
-  width: 135px;
+  width: 140px;
 }
 li.log {
-  width: 77px;
+  width: 80px;
 }
 .sign-up-link {
   background-color: #fff;
