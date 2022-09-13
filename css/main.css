@@ -68,16 +68,16 @@ a.active {
   border-bottom: 1px solid #fff;
 }
 li.about {
-  width: 80px;
+  min-width: 77px;
 }
 li.cont {
-  width: 95px;
+  min-width: 90px;
 }
 li.acc {
-  width: 140px;
+  min-width: 135px;
 }
 li.log {
-  width: 80px;
+  min-width: 77px;
 }
 .sign-up-link {
   background-color: #fff;
